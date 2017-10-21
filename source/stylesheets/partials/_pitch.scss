@@ -1,0 +1,43 @@
+.pitch {
+  background: url('../images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #FF5722;
+  padding-top: 8em;
+  min-height: 569px;
+
+  h3 {
+    color: #fff;
+    letter-spacing: 0.3em;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+.item {
+  figure {
+    text-align: center;
+
+    img {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      height: auto;
+    }
+  }
+}
+
+  td {
+    color: #fff;
+    letter-spacing: 0.3em;
+    color: #fff;
+    font-weight: 300;  }
+
+
+    th {
+      color: #fff;
+      letter-spacing: 0.3em;
+      color: #fff;
+      font-weight: 600;  }
+}
