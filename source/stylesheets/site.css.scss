@@ -26,6 +26,7 @@ body {
         background: #fff;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 1em;
 
         padding: 1em;
     }
@@ -34,17 +35,34 @@ body {
 h1 {
     text-transform: uppercase;
     letter-spacing: 0.3em;
-    margin: 1em;
+    color: #fff;
+    font-weight: normal;
+    margin: -1em;
+    padding-top: 9em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    background: url('../images/headbar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 .info {
     padding: 1em;
     line-height: 2em;
+    text-align: justify;
 }
 
-@media all and (min-width: 400px) {
+.tooltip {
+    position: absolute;
+    width: 400px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px rgba(240, 240, 240, 1) solid;
+    padding: 1em;
+}
 
+
+@media all and (min-width: 400px) {
     .main {
         width: 400px !important;
     }
@@ -52,3 +70,4 @@ h1 {
 
 
 @import 'partials/personalization';
+@import 'partials/commitment';
