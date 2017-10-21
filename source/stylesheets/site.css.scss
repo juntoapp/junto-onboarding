@@ -31,7 +31,17 @@ body {
     }
 }
 
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: 1em;
+}
 
+
+.info {
+    padding: 1em;
+    line-height: 2em;
+}
 
 @media all and (min-width: 400px) {
 
@@ -39,3 +49,6 @@ body {
         width: 400px !important;
     }
 }
+
+
+@import 'partials/personalization';
