@@ -1,46 +1,56 @@
 .pitch {
-  background: url('../images/bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #FF5722;
-  padding-top: 8em;
-  min-height: 569px;
+    background: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #FF5722;
+    padding-top: 8em;
+    min-height: 569px;
 
-  h3 {
-    color: #fff;
-    letter-spacing: 0.3em;
-    color: #fff;
-    font-weight: 600;
-    font-size: 1.5em;
-  }
-.item {
-  figure {
-    text-align: center;
-
-    img {
-      width: 50%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-top: 4em;
-      padding-bottom: 4em;
-      height: auto;
+    h1 {
+        text-align: center;
     }
-  }
-}
 
-  td {
-    color: #fff;
-    letter-spacing: 0.3em;
-    color: #fff;
-    font-weight: 300;  }
+    .item {
+        figure {
+            background: rgba(180, 180, 180, 0.14);
+            text-align: center;
+            img {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 4em;
+                padding-bottom: 4em;
+                height: auto;
+            }
+            &.table {
+                min-height: 18em;
+                display: flex;
+                flex-direction:column;
+            }
+        }
+    }
+
+    table {
+        padding: 1em;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+        td {
+            width: 50%;
+            color: #fff;
+            font-weight: 300;
+            text-align: center;
+            padding: 0.5em 2em;
+        }
 
 
-    th {
-      color: #fff;
-      letter-spacing: 0.3em;
-      color: #fff;
-      font-weight: 600;  }
-
-
-
+        th {
+            color: #fff;
+            letter-spacing: 0.3em;
+            font-weight: 600;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
 }

@@ -24,14 +24,17 @@ h1 {
     letter-spacing: 0.3em;
     color: #fff;
     font-weight: normal;
-    margin: 0;
-    padding-top: 9em;
-    padding-bottom: 2em;
-    padding-left: 2em;
-    margin-bottom: 1em;
-    background: url('../images/headbar.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+
+    &.background {
+        margin: 0;
+        padding-top: 9em;
+        padding-bottom: 2em;
+        padding-left: 2em;
+        margin-bottom: 1em;
+        background: url('../images/headbar.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 i[rel=tooltip] {
@@ -75,8 +78,10 @@ i[rel=tooltip] {
     }
 
     h1 {
-        margin: -1em;
-        margin-bottom: 1em;
+        &.background {
+            margin: -1em;
+            margin-bottom: 1em;
+        }
     }
 }
 
