@@ -4,7 +4,7 @@ $(function() {
         tooltip = false,
         title = false;
 
-    targets.bind('mouseenter', function() {
+    targets.bind('click', function() {
         target = $(this);
         tip = target.attr('title');
         tooltip = $('<div id="tooltip"></div>');

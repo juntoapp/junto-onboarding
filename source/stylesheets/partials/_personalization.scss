@@ -11,18 +11,17 @@
             padding: 1em;
             margin: 1em;
             display: flex;
+            // max-width: calc(100% - 4em);
             flex-direction: row;
-
             text-transform: uppercase;
 
             h2 {
                 font-weight: normal;
-                flex: 1;
             }
 
             img {
-                width: 50px;
-                max-height: 50px;
+                width: 2em;
+                max-height: 2em;
             }
         }
     }
