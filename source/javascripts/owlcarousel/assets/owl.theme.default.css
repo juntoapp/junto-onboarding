@@ -32,7 +32,7 @@
 
 .owl-theme .owl-dots {
   text-align: center;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: #D6D6D6; }
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
