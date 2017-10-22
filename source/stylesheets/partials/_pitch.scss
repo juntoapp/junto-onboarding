@@ -1,4 +1,6 @@
 .pitch {
+  margin: -1em;
+  padding:1em;
   background: url('../images/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +84,7 @@
     border-radius: 2px;
     font-size: 1em;
     font-weight: 500;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #000;
     width: calc(100% - 2em);
     border: 0;
