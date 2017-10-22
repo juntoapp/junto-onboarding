@@ -80,7 +80,7 @@ $(document).ready(function() {
         loop: true,
         margin: 10,
         items: 1,
-        nav: false
+        nav: false,
     });
 
 
