@@ -63,6 +63,7 @@ i[rel=tooltip] {
     min-height: 100%;
     background: #fff; // padding: 1em;
     border-bottom: 1px rgba(230, 230, 230, 1) solid;
+    border-right: 0;
 }
 
 @media all and (min-width: 450px) {
@@ -75,6 +76,7 @@ i[rel=tooltip] {
         margin-left: auto;
         margin-right: auto;
         margin-top: 1em;
+    border-right: 1px rgba(230, 230, 230, 1) solid;
     }
 
     h1 {
