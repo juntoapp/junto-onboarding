@@ -1,24 +1,29 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <link rel="stylesheet" href="javascripts/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="javascripts/owlcarousel/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/tooltips/dist/css/tooltipster.bundle.min.css" />
+<head>
+    <title><%= current_page.data.title || "junto - social habit tracking" %></title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Junto" %></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="vendor/tooltips/dist/js/tooltipster.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
-  </head>
-  <body>
-    <div class="main">
-      <%= yield %>
+    <noscript><%= stylesheet_link_tag "noscript" %></noscript>
+</head>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <%= yield %>
     </div>
-    <script src="javascripts/owlcarousel/owl.carousel.min.js"></script>
-  </body>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "jquery.scrollex.min" %>
+    <%= javascript_include_tag "jquery.scrolly.min" %>
+    <%= javascript_include_tag "browser.min" %>
+    <%= javascript_include_tag "breakpoints.min" %>
+    <%= javascript_include_tag "util" %>
+    <%= javascript_include_tag "main" %>
+</body>
+<!--
+  Stellar by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 </html>

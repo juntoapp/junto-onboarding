@@ -1,0 +1,55 @@
+///
+/// Stellar by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Features */
+
+.featurelist {
+    @include vendor('display', 'flex');
+    @include vendor('flex-direction', 'row');
+    @include vendor('flex-wrap', 'wrap');
+    .features {
+        text-align: left;
+        @include vendor('display', 'flex');
+        @include vendor('flex-direction', 'column');
+        @include vendor('flex-wrap', 'wrap');
+        width: 50%; // @include vendor('justify-content', 'center');
+        // width: calc(100% + #{_size(element-margin)});
+        // margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin)
+        padding: 0;
+
+        .feature {
+            @include vendor('display', 'flex');
+            @include vendor('flex-direction', 'row');
+            margin-bottom: 1em;
+            @include vendor('justify-content', 'center');
+
+            .badge {
+                font-style: italic;
+                font-size: 0.8em;
+            }
+
+            .icon {
+                font-size: 3em;
+            }
+
+            &>div {
+
+                margin-left: _size(element-margin);
+
+                &>* {
+                    margin-bottom: 1.5em;
+                }
+            }
+            padding: 0;
+            margin: _size(element-margin);
+        }
+
+
+        @include breakpoint('<=small') {
+            width: 100%; // margin: 0 0 _size(element-margin) 0;
+        }
+    }
+}
